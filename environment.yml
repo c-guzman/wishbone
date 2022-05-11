@@ -1,0 +1,22 @@
+name: wishbone
+
+channels:
+        - r
+        - bioconda
+        - conda-forge
+
+dependencies:
+        - python
+        - pandas
+        - numpy
+        - numba
+        - rpy2
+        - bioconductor-deseq2
+        - bioconductor-edger
+        - argparse
+        - pysam
+        - backports
+        - backports.zoneinfo
+        - pyarrow
+        - star
+        - samtools
