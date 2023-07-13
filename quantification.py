@@ -44,6 +44,8 @@ def count_csrna_rna(bam, bed, count_df, shift):
 					if not tags[1] > 1:
 						if shift == 0:
 							pos = read.reference_start - start + shift
+						elif shift == 1:
+							pos = read.reference_start - start + shift
 						else:
 							pos = read.reference_start - start + (shift + 1)
 
